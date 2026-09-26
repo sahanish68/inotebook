@@ -8,7 +8,7 @@ export default function App(){
             {/* <LoginForm /> */}
             <BrowserRouter>
                 <Routes>
-                    
+                    <Route path="/" element={<LoginForm />} />
                 </Routes>
             </BrowserRouter>
         </div>
